@@ -1,0 +1,24 @@
+PROJECTS:
+This is a simple library with multiple modules, tests and files.
+With the help of smaller modules i programmed a script called "project.py".
+project.py is a python script with robust mechanisms built-in to prevent premature program crash.
+project.py carries out certain tasks and runs completely before successful closing.
+tasks includes:
+- open program
+- prompting the user for login credentials
+- prompting user to enter more than one argument at CLI
+- reads throught csv or txt, prints informations and returns values
+- vets prescriptions for controlled medications, prints information and returns values
+- close program
+
+FINSHED MODULES:
+1. average_mean.py
+2. drug_checker.py
+3. login.py
+4. processor.py
+5. project.py
+6. weight_cal.py
+
+TESTED MODULES:
+1. Tested average_mean.py with test_average via pytest
+2. Tested drug_checker.py with test_drug_checker via pytest
